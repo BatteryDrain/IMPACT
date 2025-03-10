@@ -28,6 +28,13 @@ h1 {
     z-index: 1;
 }
 
+h2 {
+    margin-bottom: 60px;
+    letter-spacing: 0.4rem;
+    z-index: 1;
+    font-size: 25px;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -38,11 +45,12 @@ p {
     z-index: 1;
     max-width: 120ch;
     position: relative;
+    font-size: medium;
 }
 
 span {
     color: white;
-    font-size: x-small;
+    font-size: small;
     position: relative;
     top: -5px;
 }
@@ -57,12 +65,6 @@ hr {
     border: 1px solid grey;
 }
 
-h2 {
-    margin-bottom: 60px;
-    letter-spacing: 0.4rem;
-    z-index: 1;
-}
-
 #rock {
     width: 791px;
     float: right;
@@ -72,4 +74,8 @@ h2 {
 }
 #cane {
     top: 0px;
+    font-size: medium;
+}
+ul li::marker {
+    color: white;
 }
