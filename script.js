@@ -1,6 +1,5 @@
-POS = -280;
+POS = 0;
 window.addEventListener("scroll", () => {
     let ANGLE = window.scrollY / 10;
-    rock.style.transform = "rotate(" + (ANGLE * -1) + "deg)";
-    POS = ANGLE * 10;
+    rock.style.transform = "rotate(" + (-1 * ANGLE) + "deg)";
 });
