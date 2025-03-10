@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    background-color: rgb(25, 25, 25);
+}
+main {
+    margin: 0;
+    margin-left: 20% ;
+    background-color: black;
+    color: white;
+    font-family: Rboto, Arial, sans-serif;
+    width: 60%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: 180px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    z-index: 1;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+p {
+    color: grey;
+    z-index: 2;
+    max-width: 80ch;
+}
+li {
+    color: grey;
+}
+hr {
+    display: block;
+    border: 0;
+    border: 1px solid grey;
+}
+h2 {
+    margin-bottom: 80px;
+    letter-spacing: 0.7rem;
+    z-index: 1;
+}
+#rock {
+    width: 791px;
+    float: right;
+    position: absolute;
+    right: var(POS);
+    top: 0px;
+}
